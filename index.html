@@ -11,8 +11,11 @@
     <div class="main">
         <button class="btn btn-primary" onclick="goColdDrinks()">Cold Drinks</button>
         <button class="btn btn-danger" onclick="goHotDrinks()">Hot Drinks</button>
+        <div class="br"></div>
+        <button class="btn btn-success" onclick="goOpening()">Opening</button>
+        <button class="btn btn-warning">Closing</button>
     </div>
-
+        
 
 <script>
     function goColdDrinks(){
@@ -20,6 +23,9 @@
     }
     function goHotDrinks(){
         window.location.href = ("./pages/hot/hotdrinksmenu.html")
+    }
+    function goOpening(){
+        window.location.href = ("./pages/procedures/opening.html")
     }
 </script>
 
